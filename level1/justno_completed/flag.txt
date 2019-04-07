@@ -1,0 +1,14 @@
+flag is 08c0c2008f63cd44596dc13be08dd3ac
+
+How to solve.
+
+I identified that the authentication file was being called using relative paths.
+Therefore i tried to copy the code file and then edit it to refer to a spoofed auth file.
+It didnt work the error was segmentation fault.
+Segmentation fault is when there is a memory error in the program.
+
+Couldnt find a solution but knew my approach was right.
+
+Apparently when you create a symbolic link to a program (shortcut) and it is executed.
+The program is executed from the directory where the shortcut exists,
+therefore specifiying a spoofed auth file from that directory gets you the flag.

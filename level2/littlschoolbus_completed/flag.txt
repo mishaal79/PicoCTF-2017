@@ -1,0 +1,3 @@
+zsteg littleschoolbus.bmp | grep flag | cut -d : -f 2 
+
+ "flag{remember_kids_protect_your_headers_c1a3}"

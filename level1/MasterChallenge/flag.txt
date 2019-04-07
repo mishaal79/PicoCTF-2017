@@ -1,0 +1,9 @@
+The challenge is to login to a webpage.
+
+How to solve.
+
+If you check the source of the webpage it shows that it has client side scripting.
+Which seems to validate the login password from the client side and then send a respone to the server.
+Inject the post packet from the browser with value "true" and it should respond with the flag.
+
+This process can also be done using the shell on the program called curl.

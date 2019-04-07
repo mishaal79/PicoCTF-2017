@@ -1,0 +1,10 @@
+#Yarn
+
+use the strings command in linux to print out all the text in the binary.
+The option -n allows you to specify the least amount of characters to consider a string.
+
+type
+
+strings -n 2
+
+and the flag will be there in the output.

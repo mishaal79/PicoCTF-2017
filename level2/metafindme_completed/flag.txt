@@ -1,0 +1,10 @@
+flag_2_meta_4_me_33_160_8571
+
+How to solve.
+
+Use exiftool to list the details of the image.
+locate the gps coordinates.
+Use grep flag to find the flag details.
+fill in the latitude and longitutde degrees for the flag details
+
+

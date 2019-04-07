@@ -1,0 +1,17 @@
+Hash101 challenge
+level 1 - convert a binary to ascii
+level 2 - convert the ascii to hex
+level 3 - covert the hex to decimal
+level 4 - a unique hash function specified in which when all the bytes
+          all the bytes of a string are summed and mod 16 the remainder is a
+          value given by challenge.
+          find the string or set of chars which gives that value.
+level 5 - google for the md5 hash and check whether it has been cracked already.
+<<<<<<<<=====How to Solve===========>>>>>>>>>>>>>>>
+use python int function to do the conversion from binary to hex and then to ascii
+use python to convert the ascii into int or given binary to hex.
+use python to convert the hex or binary into decimal
+use ascii table to check the character values which when mod by 16
+gives the desired remainder.
+
+flag given - c3ee093f26ba147ccc451fd13c91ffce

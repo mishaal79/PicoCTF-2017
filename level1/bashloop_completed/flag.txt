@@ -1,0 +1,8 @@
+flag is 9960332950d7db392f97f29dee04f4ee
+
+How to solve.
+
+Use a bash scripting.
+Create a bashloop with an iterator and run the program passing the iterator as an argument.
+Once script is complete.
+Run the script with grep to filter the flag as output.

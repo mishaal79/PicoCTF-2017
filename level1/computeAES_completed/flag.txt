@@ -1,0 +1,30 @@
+flag{do_not_let_machines_win_2d4975bc}
+
+How to solve
+
+The key and cipher are both base64 encoded
+the encryption used is aes-128-ebc
+
+What is ebc ?
+
+ebc always produces the same encryption for the same password.
+
+What is cbc ?
+
+cbc produces random encryptions for same pasword.
+
+Step 1 -> determine the tools to decrypt aes-128-ebc
+
+openssl does the decryption and also decodes the base64 cipher file.
+it only takes in hex blocks as key.
+
+Step 2 -> convert the key into hex from base64 .
+Use online tool or base64conv - this tool adds additional chars at the end.
+
+nopad option in openssl is used when there is a block error because the encryption
+might have been done without a padding block.
+bad magic number error is given when the key given is not correct.
+
+command used,
+
+openssl enc -aes-128-ebc -d -a -in {input file} -out {output file} -K {Hex key block} || -kfile {file of hex key} -nopad

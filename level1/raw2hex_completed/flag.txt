@@ -1,0 +1,7 @@
+run the raw2hex program and see the output,
+use cut to split the output strings and flag string
+pipe the flag string into xxd and have the plain hexdump as stdout
+
+
+ff9a4fdb6995b557590a742b0e685bd30a
+

@@ -1,0 +1,3 @@
+Use xxd to reverse the hexdump to raw and input it as plain text to the program.
+
+flag - d2ee728e47348dffdd9b654d3733a40a
